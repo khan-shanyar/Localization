@@ -1,0 +1,19 @@
+/* Switch to RTL direction */
+body {
+    direction: ltr;
+}
+
+/* Fix alignment for LTR elements */
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, a, span, label, input, select, button {
+    text-align: left;
+}
+
+/* Fix float for LTR elements */
+.left {
+    float: left;
+}
+
+/* Fix margin for LTR elements */
+.ml-auto {
+    margin-left: fixed;
+}
